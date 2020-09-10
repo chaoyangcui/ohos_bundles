@@ -1,0 +1,22 @@
+{
+    "name": "@ohos/ltp",
+    "version": "1.8.0",
+    "license": "Apache V2",
+    "description": "",
+    "publishAs": "code-segment",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/ltp &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "ltp"
+    ],
+    "author": {},
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

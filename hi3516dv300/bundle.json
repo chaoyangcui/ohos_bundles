@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/hi3516dv300",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "海思（上海）媒体软件开发包用于适配不同芯片复杂的底层处理，为“媒体子系统”提供基础的多媒体处理功能。主要功能有：音视频采集、音视频编解码、音视频输出、视频前处理、封装、解封装、文件管理、存储管理、日志系统等。该软件包功能对应\"媒体子系统\"框架中红色框标注部分，如图1所示。所对应的目录为：vendor\\hisi\\hi35xx。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/vendor/hisi/hi35xx &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "vender"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "vendor"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516"
+    }
+}

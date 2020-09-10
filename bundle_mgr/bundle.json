@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/bundle_mgr",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "轻量级包管理框架子系统，是鸿蒙系统为开发者提供的安装包管理框架",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/foundation/appexecfwk &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "mgr"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "foundation"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

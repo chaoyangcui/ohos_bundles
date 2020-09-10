@@ -1,0 +1,24 @@
+{
+    "name": "@ohos/mtd_utils",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "MTD subsystem (stands for Memory Technology Devices) provides an abstraction layer for raw flash devices. It makes it possible to use the same API when working with different flash types and technologies, e.g. NAND, OneNAND, NOR, AG-AND, ECC'd NOR, etc.",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/mtd_utils&&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "thirdparty",
+        "mtdutils"
+    ],
+    "license": "Apache V2",
+    "repository": "http://git.infradead.org/mtd-utils.git",
+    "homepage": "http://git.infradead.org/mtd-utils.git",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

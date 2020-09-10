@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/ipc",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "LiteIPC为轻量级进程间通信模块，为鸿蒙系统能力服务化提供基础的通信能力，分为内核实现和用户态framework实现两部分，其中内核实现完成进程间通信的主要工作，包括进程间消息收发、内存管理、权限检查、超时通知和死亡通知等功能；用户态则提供序列化和反序列化能力，并完成IPC回调消息和死亡消息的分发",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/foundation/communication &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "ipc"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "foundation"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

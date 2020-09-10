@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/js_frameworks",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "JS应用开发框架，提供了一套跨平台的类web应用开发框架，通过Toolkit将开发者编写的HML、CSS和JS 文件编译打包成JS Bundle，然后再将JS Bundle解析运行成C++ UIKit的View 组件进行渲染。通过支持三方开发者使用声明式的API进行应用开发，以数据驱动视图变化，避免了大量的视图操作，大大降低了应用开发难度，提升开发者开发体验。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/foundation/ace &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "jsframeworks"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "foundation"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516"
+    }
+}

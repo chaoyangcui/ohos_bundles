@@ -1,0 +1,24 @@
+{
+    "name": "@ohos/freebsd",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "FreeBSD",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/FreeBSD &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "thirdparty",
+        "freebsd"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

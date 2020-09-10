@@ -1,0 +1,24 @@
+{
+    "name": "@ohos/musl",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "musl is an MIT-licensed implementation of the standard C library",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/musl&&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "thirdparty",
+        "musl"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "http://www.musl-libc.org",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

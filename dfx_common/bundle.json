@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/dfx_common",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "Log：日志支持流水实时输出和文件落盘。-Event：提供事件打点统一抽象接口，记录重要事件。Dump：提供系统故障自动dump机制，暂不支持。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/base/hiviewdfx/utils/lite &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "dfxcommon"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "base"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-m",
+        "board": "hi3861"
+    }
+}

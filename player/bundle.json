@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/player",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "音视频播放模块支持音视频播放业务的开发，主要包括音视频文件和音视频流播放、音量和播放进度控制等。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/foundation/multimedia &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "player"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "foundation"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

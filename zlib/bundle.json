@@ -1,0 +1,24 @@
+{
+    "name": "@ohos/zlib",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "zlib 1.2.11 is a general purpose data compression library. All the code is thread safe. The data format used by the zlib library is described by RFCs (Request for Comments) 1950 to 1952 in the files",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/zlib&&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "thirdparty",
+        "zlib"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "https://github.com/madler/zlib/archive/v1.2.11.zip",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

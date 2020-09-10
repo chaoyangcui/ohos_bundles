@@ -1,0 +1,25 @@
+{
+    "name": "@ohos/harfbuzz",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "HarfBuzz is a text shaping engine. It primarily supports OpenType, but also Apple Advanced Typography. HarfBuzz is used in Android, Chrome, ChromeOS, Firefox, GNOME, GTK+, KDE, LibreOffice, OpenJDK, PlayStation, Qt, XeTeX, and other places.",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/harfbuzz &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "harbfuzz"
+    ],
+    "envs": {},
+    "author": {},
+    "homepage": "",
+    "repository": "",
+    "license": "Apache V2",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "@ohos/wpa_supplicant",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "wpa_supplicant",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/wpa_supplicant&&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "thirdparty",
+        "wpasupplicant"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

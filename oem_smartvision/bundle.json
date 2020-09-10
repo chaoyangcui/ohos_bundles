@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/oem_smartvision",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "oem_smartvision",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/vendor/huawei/camera &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "vendor"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "vendor"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

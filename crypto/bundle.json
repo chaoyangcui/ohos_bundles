@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/crypto",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "数据加解密模块，配合轻量级ACE开发框架子系统，提供支持RSA及AES加解密功能的js api。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/base/security &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "crypto"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "base"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

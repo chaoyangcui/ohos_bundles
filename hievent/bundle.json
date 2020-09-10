@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/hievent",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "为系统内业务组件提供故障、用户行为、功耗统计三类事件打点接口，支持对事件进行序列化。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/base/hiviewdfx/ &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "hievent"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "base"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-m",
+        "board": "hi3861"
+    }
+}

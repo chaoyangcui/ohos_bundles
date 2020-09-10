@@ -1,0 +1,24 @@
+{
+    "name": "@ohos/hdf",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "OpenHarmony驱动子系统采用采用C面向对象编程模型构建，通过平台解耦、内核解耦，兼容不同内核，提供了归一化的驱动平台底座，旨在为开发者提供更精准、更高效的开发环境，力求做到一次开发，多系统部署。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/ &&mkdir -p $DEST_PATH && cp -r drivers vendor $DEST_PATH"
+    },
+    "keywords": [
+        "hdf"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "drivers",
+        "vendor"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

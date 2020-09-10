@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/recorder",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "录制模块支持音视频录制业务的开发，提供音视频录制相关的功能，包括设置录制视频画面尺寸、音视频编码码率、编码器类型、视频帧率、音频采样率、录制文件输出格式等。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/foundation/multimedia &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "recorder"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "foundation"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

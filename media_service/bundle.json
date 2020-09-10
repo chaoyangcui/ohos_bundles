@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/media_service",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "该模块用于启动多媒体服务，该服务会初始化多媒体资源及公共变量状态。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/foundation/multimedia &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "mediaservice"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "foundation"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

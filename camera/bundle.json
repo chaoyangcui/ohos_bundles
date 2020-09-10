@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/camera",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "相机是HarmonyOS多媒体进程提供的服务之一，提供了相机的录像、预览、拍照功能，支持多用户并发取流。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/foundation/multimedia &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "camera"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "foundation"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

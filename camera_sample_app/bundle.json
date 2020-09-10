@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/camera_sample_app",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "camera_sample_app",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/applications/sample/camera &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "app"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "application"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

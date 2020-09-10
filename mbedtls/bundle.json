@@ -1,0 +1,20 @@
+{
+    "name": "@ohos/mbedtls",
+    "version": "1.8.0",
+    "license": "Apache V2",
+    "description": "An open source, portable, easy to use, readable and flexible SSL library.",
+    "publishAs": "code-segment",
+    "kerywords": "mbedtls",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/mbedtls && mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "author": {},
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

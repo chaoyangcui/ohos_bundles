@@ -1,0 +1,25 @@
+{
+    "name": "@ohos/googletest",
+    "version": "1.8.0",
+    "description": "The 1.8.x is the last release supporting pre-C++11 compilers. The 1.8.x will not accept any requests for any new features and any bugfix requests will only be accepted if proven critical",
+    "publishAs": "code-segment",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/googletest && mkdir -p $DEST_PATH &&cp -r ./*  $DEST_PATH"
+    },
+    "keywords": [
+        "googletest"
+    ],
+    "envs": {},
+    "author": {},
+    "homepage": "",
+    "repository": "",
+    "license": "Apache V2",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

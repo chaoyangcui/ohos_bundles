@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/iam",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "应用权限是软件用来访问系统资源和使用系统能力的一种通行方式，存在涉及个人隐私相关功能和数据的场景，例如：访问个人设备的硬件特性，如摄像头、麦克风，以及获取个人数据，如通讯录，日历等存储的信息等。鸿蒙OS通过应用权限管理来保护这些数据以及能力。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/base/security &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "iam"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "base"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

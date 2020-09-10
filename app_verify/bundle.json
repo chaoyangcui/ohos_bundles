@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/app_verify",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "为了确保应用内容的完整性，HarmonyOS通过应用签名和Profile对应用的来源进行管控，设备上仅允许安装内部预置或来自华为应用市场的应用。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/base/security &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "appverify"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "base"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

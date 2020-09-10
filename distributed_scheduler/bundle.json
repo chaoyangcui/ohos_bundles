@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/distributed_scheduler",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "分布式任务调度模块，通过主（智慧屏设备）从设备（运动手表等小内存设备）服务代理机制，在异构操作系统上建立起分布式服务平台，支持OpenHarmony智慧屏与拉起其它OpenHarmony设备FA的能力。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/foundation/distributedschedule/services/dtbschedmgr_lite &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "distributedscheduler"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "foundation"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516"
+    }
+}

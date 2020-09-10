@@ -1,0 +1,24 @@
+{
+    "name": "@ohos/curl",
+    "version": "1.8.0",
+    "description": "A command line tool and library for transferring data with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features.",
+    "publishAs": "code-segment",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/curl && mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "json"
+    ],
+    "author": {},
+    "homepage": "https://curl.haxx.se/",
+    "repository": "https://github.com/curl/curl.git",
+    "license": "Apache V2",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

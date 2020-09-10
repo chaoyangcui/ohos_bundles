@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/secure_os",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "secure_os组件提供了一套用于和华为自研TEEOS交互的富运行环境（REE）接口组件，包括驱动（tzdriver）、libteec（应用接口库）、teecd（agent服务），其中libteec满足Globalplatform 标准，可提供CA（ClientApp）标准的访问接口。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/base/security &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "secure"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "base"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516"
+    }
+}

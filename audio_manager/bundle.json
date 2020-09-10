@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/audio_manager",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "音频管理模块支持对音频数据的采集和播放，即音频输入输出模块。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/foundation/multimedia &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "audio"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "foundation"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

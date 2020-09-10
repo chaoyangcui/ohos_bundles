@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/appspawn",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "应用孵化模块，appspawn进程，配合轻量级元能力框架子系统，通过轻量级IPC机制接收来自AMS的消息，根据消息解析结果启动元能力进程AbilityMain并赋予其对应权限。",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/base/startup/services/appspawn_lite &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "appspawn"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "",
+    "tags": [
+        "base"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "liteos-a",
+        "board": "hi3516,hi3518"
+    }
+}

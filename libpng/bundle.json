@@ -1,0 +1,24 @@
+{
+    "name": "@ohos/libpng",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "description": "Reference library for supporting the Portable Network Graphics (PNG) format.",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/libpng&&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "thirdparty",
+        "libpng"
+    ],
+    "license": "Apache V2",
+    "repository": "",
+    "homepage": "http://www.libpng.org/pub/png/libpng.html",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

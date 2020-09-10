@@ -1,0 +1,25 @@
+{
+    "name": "@ohos/iniparser",
+    "version": "1.8.0",
+    "description": "This modules offers parsing of ini files from the C level. See a complete documentation in HTML format, from this directory open the file html/index.html with any HTML-capable browser.",
+    "publishAs": "code-segment",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/iniparser && mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "keywords": [
+        "iniparser"
+    ],
+    "envs": {},
+    "author": {},
+    "homepage": "",
+    "repository": "",
+    "license": "Apache V2",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}

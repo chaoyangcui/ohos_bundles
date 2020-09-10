@@ -1,0 +1,23 @@
+{
+    "name": "@ohos/bounds_checking_function",
+    "version": "1.8.0",
+    "publishAs": "code-segment",
+    "scripts": {
+        "install": "DEST_PATH=${DEP_BUNDLE_BASE}/third_party/bounds_checking_function &&mkdir -p $DEST_PATH && cp -r ./* $DEST_PATH"
+    },
+    "description": "following the standard of C11 Annex K (bound-checking interfaces), functions of the common memory/string operation classes, such as memcpy_s, strcpy_s, are selected and implemented",
+    "keywords": [
+        "thirdparty"
+    ],
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openeuler/bounds_checking_function",
+    "homepage": "https://gitee.com/openeuler/bounds_checking_function",
+    "tags": [
+        "third_party"
+    ],
+    "ohos": {
+        "os": "1.0.0",
+        "kernel": "",
+        "board": ""
+    }
+}
